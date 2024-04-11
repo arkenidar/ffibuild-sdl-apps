@@ -2,14 +2,14 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Debug LOVE2D (found in PATH)",
+            "name": "app.lua",
             "type": "lua-local", // tomblind.local-lua-debugger-vscode
             "request": "launch",
             "program": {
                 "command": "luajit"
             },
             "args": [
-                "main.lua"
+                "app.lua"
             ],
             "cwd": "${workspaceFolder}"
         }
