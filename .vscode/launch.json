@@ -2,6 +2,18 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "maze.lua",
+            "type": "lua-local", // tomblind.local-lua-debugger-vscode
+            "request": "launch",
+            "program": {
+                "command": "luajit"
+            },
+            "args": [
+                "maze.lua"
+            ],
+            "cwd": "${workspaceFolder}"
+        },
+        {
             "name": "app.lua",
             "type": "lua-local", // tomblind.local-lua-debugger-vscode
             "request": "launch",
